@@ -4,9 +4,11 @@ export class NavPage extends Component {
     render() {
         return (
             <div>
-                <div></div>
+                <div>
+                    <h1>Complimentary standard shipping on all orders + </h1>
+                </div>
                 <nav>
-                    <ul>
+                    <ul id="nav">
                         <li>Shop</li>
                         <li>Read</li>
                         <li>Store</li>
