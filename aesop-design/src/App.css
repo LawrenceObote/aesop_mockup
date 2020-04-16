@@ -36,9 +36,18 @@
     transform: rotate(360deg);
   }
 }
+#compBar{
+  background-color: #252525;
+  color: #a5a49f;
+  padding: 1%;
+  margin: 0;
 
+}
 #nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 20%;
+  list-style-type: none;
+
 }
