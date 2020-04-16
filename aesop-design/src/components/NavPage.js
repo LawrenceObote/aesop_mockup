@@ -5,7 +5,7 @@ export class NavPage extends Component {
         return (
             <div>
                 <div>
-                    <h1>Complimentary standard shipping on all orders + </h1>
+                    <h3 id="compBar">Complimentary standard shipping on all orders + </h3>
                 </div>
                 <nav>
                     <ul id="nav">
