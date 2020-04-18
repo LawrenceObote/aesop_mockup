@@ -36,6 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.navPage {
+  background-color: gray;
+  height: 65vh;
+  width: 100%;
+  background-image: url(./images/Aesop-Homepage-Banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  
+  
+
+}
+
 #compBar{
   background-color: #252525;
   color: #a5a49f;
@@ -43,11 +58,59 @@
   margin: 0;
 
 }
+
 #nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 20%;
   list-style-type: none;
-
 }
+
+#right{
+  position: absolute;
+  top: 65px;
+  right: 60px;
+  list-style: none;
+}
+
+
+
+#red{
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+#aesop{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  justify-content: space-between;
+  width: 60%;
+  padding-left: 2%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#sensory{
+  text-align: left;
+  margin: 0 auto;
+  width: 43.5%;
+}
+
+.spacing{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.spacingP{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+
